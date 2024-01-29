@@ -1,5 +1,5 @@
 sum = 0
-#input_path = ".\\day-1\\input.txt"
+input_path = ".\\day-1\\input.txt"
 numbers_map = {
     'one':1,
     'two':2,
