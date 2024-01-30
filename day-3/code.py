@@ -93,5 +93,8 @@ def get_number(chargrid, i, j):
 
 if __name__ == '__main__':
     input_path = '.\\day-3\\input.txt'
-    ans = part_2(input_path)
-    print(ans)
+    part_1_ans = part_1(input_path)
+    part_2_ans = part_2(input_path)
+
+    print(f'[Part 1] Sum of part numbers: {part_1_ans}')
+    print(f'[Part 2] Sum of gear ratios: {part_2_ans}')
